@@ -1,0 +1,50 @@
+/* リセットcss ここから */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family:"游ゴシック",YuGothic,"Hiragino Kaku Gothic ProN",Meiryo, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+/* リセットcss ここまで */
+
+section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: azure;
+}
+
+.title {
+  /* background-color: beige; */
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* HTML Basic study001 */
+.parent {
+  min-width:400px;
+  height:600px;
+  margin: 0 auto;
+  background-color: rgb(214, 238, 214);
+}
+.child {
+  width: 60px;
+  height: 90px;
+  background-color: lightseagreen;
+  border-radius: 6px;
+  margin: 5px;
+}
