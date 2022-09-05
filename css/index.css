@@ -35,15 +35,18 @@ section {
 }
 
 /* HTML Basic study001 */
-.parent {
-  min-width:400px;
+.study001 .parent {
+  display: flex;
+  /* width:400px; */
   height:600px;
   margin: 0 auto;
   background-color: rgb(214, 238, 214);
 }
-.child {
+.study001 .parent .child {
+  flex: 1 0 150px;
+  margin: 5px;
   width: 60px;
-  height: 90px;
+  height: auto;
   background-color: lightseagreen;
   border-radius: 6px;
   margin: 5px;
