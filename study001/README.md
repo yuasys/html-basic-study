@@ -1,5 +1,6 @@
 # study001について
-![](https://i.imgur.com/2kriqjf.png)
+![](https://i.imgur.com/2kriqjf.png)  
+
 ここでは、htmlの最も基本的な知識を確認することに焦点をあてて勉強します。
 
 1. HTML, CSS, Javascript それぞれのファイル構造と配置の関係について
@@ -21,7 +22,8 @@ $ node -v
 ```bash=
 $ npm run dev
 ```
-![](https://i.imgur.com/WUoYLTo.png)
+![](https://i.imgur.com/WUoYLTo.png)  
+
 ターミナル中の表示[http://127.0.0.1:5173](http://127.0.0.1:5173)のマウスを当て直接ctrlキーを押しながらクリックするとブラウザで表示できる。  
 ただし、その場合このプロジェクトのルートが表示されるので[ここ(study001)](http://127.0.0.1:5173/study001)をクリックするか、ブラウザのアドレスバーでurlの最後尾に「/study001」を追記してEnterキーを押下する。
 
