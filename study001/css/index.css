@@ -1,12 +1,23 @@
+/*----------------------------
+  CSSの基本的な初期設定
+by Nobuhiko Yuasa 2022-09-08
+-----------------------------*/
+
+/* ボックスサイズを直観的にする【重要】 */
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
+/* 上記のbox-sizing設定を継承する */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+/*
+   余計なマージンとパディングをなくす
+　　＋　フォントファミリを設定する
+*/
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
@@ -14,6 +25,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-family:"游ゴシック",YuGothic,"Hiragino Kaku Gothic ProN",Meiryo, sans-serif;
 }
 
+/* リスト表記をシンプルにする */
 ol, ul {
   list-style: none;
 }
