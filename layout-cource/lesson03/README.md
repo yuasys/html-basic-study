@@ -28,7 +28,7 @@
 |対象|デバイス<br>(判別基準)|表示場所|display設定|
 |:----:|----|----|----|
 |メニューリスト|SP(スマホ)<br>(width<=900px)| なし |none|
-| ^ |PC<br>(width>900px)|left|block|
+|^ |PC<br>(width>900px)|left|block|
 
 
 
