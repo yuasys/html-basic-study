@@ -1,0 +1,38 @@
+body {
+  font-size: 1.5rem;
+  width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  grid-template:
+  "..... ...... ......  ......  ..."
+  "..... header header  header  ..." 230px
+  "..... ...... ......  ......  ..." 20px
+  "..... left   ......  center  ..." 600px
+  "..... ...... ......  center  ..." 1fr
+  "..... ...... ......  ......  ..." 20px
+  "..... footer footer  footer  ..." 70px
+  "..... ...... ......  ......  ..."
+  / auto 220px  auto  1fr    auto;
+}
+header {
+  grid-area: header;
+}
+main {
+  grid-area: center;
+}
+nav {
+  grid-area: left;
+}
+footer {
+  grid-area: footer;
+}
+@media screen and (max-width: 1000px) {
+  body {
+      grid-template:
+          "header" 230px
+          "left  "
+          "center" 1fr
+          "footer" 70px;
+  }
+}
