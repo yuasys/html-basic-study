@@ -2,7 +2,7 @@ body {
   font-size: 1.5rem;
   width: 900px;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 2000px;
   display: grid;
   grid-template:
   "..... ...... ......  ......  ..."
