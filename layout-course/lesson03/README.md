@@ -1,7 +1,7 @@
 # Lesson3
 ここでは演習課題として、「メニュー開閉」の動きを伴うレイアウトをCSSで実現する作品を制作してみたいと思います。
 
-<img src="2022-09-12-07-06-07.png" width="60">
+<img src="img/2022-09-12-07-06-07.png" width="60">
 
 <details>
     <summary><h2 style="display:inline">演習の進め方を考える</summary>
