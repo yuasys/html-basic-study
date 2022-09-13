@@ -1,0 +1,52 @@
+body {
+  font-size: 1.5rem;
+  min-height: 2000px;
+  display: grid;
+
+  grid-template:
+  "header" 230px
+  "left  "
+  "center" 1fr
+  "footer" 70px;
+}
+header {
+  grid-area: header;
+  background-color: rgba(0, 255, 238, 0.311);
+  outline: solid 1px;
+
+}
+main {
+  grid-area: center;
+  background-color: rgba(246, 121, 166, 0.5);
+  outline: solid 1px;
+
+}
+nav {
+  grid-area: left;
+  background-color: rgba(255,255,0,0.5);
+  outline: solid 1px;
+}
+footer {
+  grid-area: footer;
+  background-color: rgba(86, 87, 87, 0.311);
+  outline: solid 1px;
+
+}
+
+/* PC 画面用スタイル */
+
+@media (min-width: 900px) {
+  body {
+    width: 900px;
+    margin: 0 auto;
+    grid-template:
+    "..... ...... ......  ......  ..."
+    "..... header header  header  ..." 230px
+    "..... ...... ......  ......  ..." 20px
+    "..... left   ......  center  ..." 600px
+    "..... ...... ......  center  ..." 1fr
+    "..... ...... ......  ......  ..." 20px
+    "..... footer footer  footer  ..." 70px
+    "..... ...... ......  ......  ..."
+    / auto 220px  auto  1fr    auto;  }
+}
